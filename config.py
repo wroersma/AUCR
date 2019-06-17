@@ -46,7 +46,6 @@ class Config(object):
     LDAP_ADMIN = os.environ.get("LDAP_ADMIN") or None
     LDAP_ADMIN_PASSWORD = os.environ.get("LDAP_ADMIN_PASSWORD") or None
     APP_TITLE = os.environ.get('APP_TITLE') or "Analyst Unknown Cyber Range"
-    MONGO_URI = os.environ.get('MONGO_URI') or None
     PRIVACY_POLICY_URL = os.environ.get('PRIVACY_POLICY_URL') or None
     RABBITMQ_SERVER = os.environ.get('RABBITMQ_SERVER') or 'localhost'
     RABBITMQ_PORT = os.environ.get('RABBITMQ_PORT') or '5672'
